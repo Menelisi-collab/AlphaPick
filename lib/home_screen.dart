@@ -14,6 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        color: Colors.blueAccent,
         child: Row(
           children: <Widget>[
             Text('Team A', style: TextStyle(fontSize: 20),),
