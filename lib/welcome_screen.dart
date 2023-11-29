@@ -1,3 +1,4 @@
+import 'package:alphapick/home_screen.dart';
 import 'package:alphapick/main.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,6 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(children: [
       Center(
-        heightFactor: 14,
         child: Text(
           " Welcome to AlphaPick",
           textDirection: TextDirection.ltr,
@@ -18,7 +18,7 @@ class WelcomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      Center(heightFactor: 0, child: PlayButton()),
-    ]);
+      Center(child: PlayButton()),HomeScreen(),
+    ],);
   }
 }

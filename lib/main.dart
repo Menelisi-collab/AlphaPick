@@ -3,24 +3,17 @@ import 'welcome_screen.dart';
 import 'home_screen.dart';
 
 void main() => runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "AlphaPick",
-      home: Scaffold(
-        body: Column(
-          children: [
-            Center(
-              child: Material(
-                color: Colors.purple,
-                child: WelcomeScreen(),
-              ),
-            ),HomeScreen(),
-          ],
+      const MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: "AlphaPick",
+        home: Scaffold(
+          body: Material(
+            color: Colors.purple,
+            child: WelcomeScreen(),
+          ),
         ),
-        ),
-    ),
-  );
-
+      ),
+    );
 
 class PlayButton extends StatelessWidget {
   const PlayButton({super.key});
@@ -36,18 +29,25 @@ class PlayButton extends StatelessWidget {
               child: ElevatedButton(
                 style: ButtonStyle(
                     backgroundColor:
-                    MaterialStateProperty.all<Color>(Colors.yellow),
+                        MaterialStateProperty.all<Color>(Colors.yellow),
                     elevation: MaterialStateProperty.all<double>(8),
                     side: MaterialStateProperty.all<BorderSide>(
                       const BorderSide(width: 1, style: BorderStyle.solid),
                     ),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         const RoundedRectangleBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(8))))),
-                onPressed: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (context) => const HomeScreen()));
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(8))))),
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const HomeScreen()));
                 },
-                child: Text("PLAY", style: TextStyle(color: Colors.green, fontSize: 20.0),),
+                child: Text(
+                  "PLAY",
+                  style: TextStyle(color: Colors.green, fontSize: 20.0),
+                ),
               ),
             ),
           ),
@@ -56,4 +56,3 @@ class PlayButton extends StatelessWidget {
     );
   }
 }
-
