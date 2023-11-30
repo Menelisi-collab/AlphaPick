@@ -18,7 +18,7 @@ class WelcomeScreen extends StatelessWidget {
           ),
         ),
       ),
-      Center(child: PlayButton()),HomeScreen(),
+      Center(child: PlayButton()),
     ],);
   }
 }

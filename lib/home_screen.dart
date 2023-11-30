@@ -17,7 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         body: Container(
           color: Colors.blueAccent,
-          child:  const Row(
+          child: Row(
             children: <Widget>[
               Text('Team A', style: TextStyle(fontSize: 20),),
               Text('v', style: TextStyle(fontSize: 20),),
