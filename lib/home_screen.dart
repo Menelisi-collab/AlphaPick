@@ -13,19 +13,24 @@ class HomeScreen extends StatefulWidget{
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Scaffold(
+    return Scaffold(
         body: Container(
+          height: 50,
           color: Colors.blueAccent,
-          child: Row(
-            children: <Widget>[
-              Text('Team A', style: TextStyle(fontSize: 20),),
-              Text('v', style: TextStyle(fontSize: 20),),
-              Text('Team B', style: TextStyle(fontSize: 20),),
-            ],
+          child: const Center(
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Text('Team A', style: TextStyle(fontSize: 20, color: Colors.yellow),),
+                Text('v', style: TextStyle(fontSize: 20),),
+                Text('Team B', style: TextStyle(fontSize: 20, color: Colors.yellow),),
+                ElevatedButton(style: ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll<Color>(Colors.purple),
+                ), onPressed: null, child: Text("options",   style: TextStyle(color: Colors.blue, fontSize: 15.0)),),
+              ],
+            ),
           ),
         ),
-      ),
-    );
+      );
   }
 }
