@@ -22,15 +22,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
               Expanded(
                 child: ListView(
                   children: const <Widget>[
-                    Center(child: Text("Team___ Win", style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
-                    Center(child: Text("Team___ Lose",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
-                    Center(child: Text('Team___ Draw', style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
+                    Center(child: Text("Win", style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
+                    Center(child: Text("Lose",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text('Draw', style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
+                    Center(child: Text("FirstGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("LastGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
                     Center(child: Text("CornerGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
                     Center(child: Text("FreeKickGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
                     Center(child: Text("OpenPlay",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
                     Center(child: Text("OwnGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
-                    Center(child: Text("FirstGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
-                    Center(child: Text("LastGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+
                   ],
                 ),
               ),
