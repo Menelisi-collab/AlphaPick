@@ -1,0 +1,43 @@
+import 'package:flutter/material.dart';
+import 'home_screen.dart';
+import 'main.dart';
+
+
+class PlayerOptions extends StatefulWidget{
+  @override
+  State<PlayerOptions> createState() => _PlayerOptionsState();
+}
+
+class _PlayerOptionsState extends State<PlayerOptions> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        height: 800,
+        color: Colors.greenAccent,
+        child: Center(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: <Widget>[
+              Expanded(
+                child: ListView(
+                  children: const <Widget>[
+                    Center(child: Text("Team___ Win", style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
+                    Center(child: Text("Team___ Lose",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text('Team___ Draw', style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white),)),
+                    Center(child: Text("CornerGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("FreeKickGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("OpenPlay",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("OwnGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("FirstGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                    Center(child: Text("LastGoal",style: TextStyle(fontSize: 20, color: Colors.lime, backgroundColor: Colors.white))),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
