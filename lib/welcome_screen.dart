@@ -8,6 +8,7 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(children: [
+      Image(image: AssetImage("images/welcomepic.jpg")),
       Center(
         child: Text(
           " Welcome to AlphaPick",

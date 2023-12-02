@@ -24,7 +24,7 @@ class PlayButton extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            color: Colors.purple,
+            color: Colors.white,
             child: SizedBox(
               child: ElevatedButton(
                 style: ButtonStyle(
