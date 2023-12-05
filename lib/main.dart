@@ -8,7 +8,7 @@ void main() => runApp(
         title: "AlphaPick",
         home: Scaffold(
           body: Material(
-            color: Colors.purple,
+            color: Colors.deepPurpleAccent,
             child: WelcomeScreen(),
           ),
         ),
@@ -24,20 +24,19 @@ class PlayButton extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            color: Colors.white,
             child: SizedBox(
               child: ElevatedButton(
                 style: ButtonStyle(
                     backgroundColor:
-                        MaterialStateProperty.all<Color>(Colors.yellow),
+                        MaterialStateProperty.all<Color>(Colors.purpleAccent),
                     elevation: MaterialStateProperty.all<double>(8),
                     side: MaterialStateProperty.all<BorderSide>(
-                      const BorderSide(width: 1, style: BorderStyle.solid),
+                      const BorderSide(width: 3, style: BorderStyle.solid),
                     ),
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         const RoundedRectangleBorder(
                             borderRadius:
-                                BorderRadius.all(Radius.circular(8))))),
+                                BorderRadius.all(Radius.circular(40))))),
                 onPressed: () {
                   Navigator.push(
                       context,
@@ -46,7 +45,7 @@ class PlayButton extends StatelessWidget {
                 },
                 child: Text(
                   "PLAY",
-                  style: TextStyle(color: Colors.green, fontSize: 20.0),
+                  style: TextStyle(color: Colors.white, fontSize: 20.0,fontFamily: "Lobster"),
                 ),
               ),
             ),

@@ -12,8 +12,10 @@ class _PlayerOptionsState extends State<PlayerOptions> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: 800,
-        color: Colors.greenAccent,
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("images/field.jpg"),
+                fit: BoxFit.cover)),
         child: Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -29,6 +31,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             "Win",
                             style: TextStyle(
                                 fontSize: 20,
+                                fontFamily: "Lobster",
                                 color: Colors.white,
                                 backgroundColor: Colors.orangeAccent),
                           ),
@@ -39,6 +42,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -51,6 +55,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("Lose",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
                                     backgroundColor: Colors.orangeAccent))),
                         ElevatedButton(
@@ -59,6 +64,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -72,14 +78,17 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                           'Draw',
                           style: TextStyle(
                               fontSize: 20,
+                              fontFamily: "Lobster",
                               color: Colors.white,
                               backgroundColor: Colors.orangeAccent),
-                        )),ElevatedButton(
+                        )),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -92,13 +101,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("NoGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -111,13 +123,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("FirstGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -130,13 +145,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("LastGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -149,13 +167,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("CornerGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -168,13 +189,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("FreeKickGoal(D)",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -187,13 +211,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("FreeKickGoal(I)",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -206,13 +233,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("OpenPlay",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -225,13 +255,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("OwnGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -244,13 +277,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("FirstBooking(Y)",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -264,12 +300,14 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -282,13 +320,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("LastBooking(Y)",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -301,13 +342,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("LastBooking(R)",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))
@@ -320,13 +364,16 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("LastMinuteGoal",
                                 style: TextStyle(
                                     fontSize: 20,
+                                    fontFamily: "Lobster",
                                     color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),ElevatedButton(
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
                             onPressed: null,
                             child: Text(
                               "select",
                               style: TextStyle(
                                   fontSize: 15,
+                                  fontFamily: "Lobster",
                                   color: Colors.white,
                                   backgroundColor: Colors.blue),
                             ))

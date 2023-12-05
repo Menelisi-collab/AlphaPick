@@ -7,19 +7,22 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(children: [
-      Image(image: AssetImage("images/welcomepic.jpg")),
-      Center(
-        child: Text(
-          " Welcome to AlphaPick",
-          textDirection: TextDirection.ltr,
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 40.0,
+    return Container(
+      child: ListView(children: const [
+        Center(
+          child: Text(
+            " Welcome to AlphaPick",
+            textDirection: TextDirection.ltr,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 40.0,
+              fontFamily: "Lobster"
+            ),
           ),
         ),
-      ),
-      Center(child: PlayButton()),
-    ],);
+        Center(child: PlayButton()),
+        Expanded(child: Image(image: AssetImage("images/lights_intro.jpg"),fit: BoxFit.cover,)),
+      ],),
+    );
   }
 }
