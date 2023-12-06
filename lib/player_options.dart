@@ -230,7 +230,29 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Center(
-                            child: Text("OpenPlay",
+                            child: Text("OpenPlay(18y)",
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    fontFamily: "Lobster",
+                                    color: Colors.white,
+                                    backgroundColor: Colors.orangeAccent))),
+                        ElevatedButton(
+                            onPressed: null,
+                            child: Text(
+                              "select",
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontFamily: "Lobster",
+                                  color: Colors.white,
+                                  backgroundColor: Colors.blue),
+                            ))
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Center(
+                            child: Text("OpenPlay(LR)",
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
