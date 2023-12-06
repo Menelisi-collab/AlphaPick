@@ -71,7 +71,7 @@ flutter:
   fonts:
     - family: Lobster
       fonts:
-         - asset: fonts/Lobster-Regular.ttf
+      - asset: fonts/Lobster-Regular.ttf
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/assets-and-images/#resolution-aware
