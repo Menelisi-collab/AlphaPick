@@ -3,14 +3,14 @@ import 'home_screen.dart';
 import 'hover_effect.dart';
 
 
-class BasketBall extends StatefulWidget{
-  const BasketBall({super.key});
+class Racing extends StatefulWidget{
+  const Racing({super.key});
 
   @override
-  State<BasketBall> createState() => _BasketBallState();
+  State<Racing> createState() => _RacingState();
 }
 
-class _BasketBallState extends State<BasketBall> {
+class _RacingState extends State<Racing> {
   @override
   Widget build(BuildContext context) {
     return Scaffold();

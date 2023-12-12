@@ -1,8 +1,13 @@
+import 'package:alphapick/basketball_options.dart';
 import 'package:flutter/material.dart';
 import 'welcome_screen.dart';
 import 'main.dart';
 import 'football_options.dart';
 import 'hover_effect.dart';
+import 'boxing_options.dart';
+import 'tennis_options.dart';
+import 'rugby_options.dart';
+import 'racing_options.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -479,32 +484,78 @@ class _HomeScreenState extends State<HomeScreen> {
                       height: 60,
                       width: 60,
                       color: Colors.yellow,
-                      child: ElevatedButton(onPressed: null, child: Image(image: AssetImage("images/basketball_icon.png"),),),
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => BasketBall()));
+                        },
+                        child: Image(
+                          image: AssetImage("images/basketball_icon.png"),
+                        ),
+                      ),
                     ),
                     Container(
-                      height: 60,
-                      width: 60,
-                      color: Colors.cyanAccent,
-                        child: ElevatedButton(onPressed: null, child: Image(image: AssetImage("images/tennis_icon.png"),),)
-                    ),
+                        height: 60,
+                        width: 60,
+                        color: Colors.cyanAccent,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Tennis()));
+                          },
+                          child: Image(
+                            image: AssetImage("images/tennis_icon.png"),
+                          ),
+                        )),
                     Container(
-                      height: 60,
-                      width: 60,
-                      color: Colors.white,
-                        child: ElevatedButton(onPressed: null, child: Image(image: AssetImage("images/rugby_nfl_icon.png"),),)
-                    ),
+                        height: 60,
+                        width: 60,
+                        color: Colors.white,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Rugby()));
+                          },
+                          child: Image(
+                            image: AssetImage("images/rugby_nfl_icon.png"),
+                          ),
+                        )),
                     Container(
                         height: 60,
                         width: 60,
                         color: Colors.black,
-                        child: ElevatedButton(onPressed: null, child: Image(image: AssetImage("images/boxing_icon.png"),),)
-                    ),
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Boxxing()));
+                          },
+                          child: Image(
+                            image: AssetImage("images/boxing_icon.png"),
+                          ),
+                        )),
                     Container(
                         height: 60,
                         width: 60,
                         color: Colors.orange,
-                        child: ElevatedButton(onPressed: null, child: Image(image: AssetImage("images/racing_icon.png"),),)
-                    ),
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Racing()));
+                          },
+                          child: Image(
+                            image: AssetImage("images/racing_icon.png"),
+                          ),
+                        )),
                   ],
                 ),
               )

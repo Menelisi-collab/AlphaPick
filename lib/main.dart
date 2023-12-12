@@ -4,7 +4,7 @@ import 'welcome_screen.dart';
 import 'home_screen.dart';
 import 'signup.dart';
 import 'options.dart';
-import 'player_options.dart';
+import 'football_options.dart';
 
 void main() => runApp(
       const MaterialApp(

@@ -1,6 +1,6 @@
 import 'package:alphapick/options.dart';
 import 'package:flutter/material.dart';
-import 'player_options.dart';
+import 'football_options.dart';
 import 'main.dart';
 
 
