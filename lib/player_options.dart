@@ -1,8 +1,10 @@
+import 'package:alphapick/options.dart';
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
-import 'main.dart';
+import 'options.dart';
 
 class PlayerOptions extends StatefulWidget {
+  const PlayerOptions({super.key});
+
   @override
   State<PlayerOptions> createState() => _PlayerOptionsState();
 }
@@ -22,7 +24,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
             children: <Widget>[
               Expanded(
                 child: ListView(
-                  children: const <Widget>[
+                  children: <Widget>[
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -32,8 +34,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             style: TextStyle(
                                 fontSize: 20,
                                 fontFamily: "Lobster",
-                                color: Colors.white,
-                                backgroundColor: Colors.orangeAccent),
+                                color: Colors.white),
                           ),
                         ),
                         ElevatedButton(
@@ -43,9 +44,8 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
-                            ))
+                                  color: Colors.white),
+                            )),
                       ],
                     ),
                     Row(
@@ -56,8 +56,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -65,8 +64,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -79,8 +77,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                           style: TextStyle(
                               fontSize: 20,
                               fontFamily: "Lobster",
-                              color: Colors.white,
-                              backgroundColor: Colors.orangeAccent),
+                              color: Colors.white),
                         )),
                         ElevatedButton(
                             onPressed: null,
@@ -89,8 +86,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -102,8 +98,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -111,8 +106,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -124,8 +118,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -133,8 +126,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -146,8 +138,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -155,8 +146,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -164,12 +154,11 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Center(
-                            child: Text("CornerGoal",
+                            child: Text("HeadedGoal",
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -177,8 +166,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -190,8 +178,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -199,8 +186,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -212,8 +198,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -221,8 +206,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -230,12 +214,11 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Center(
-                            child: Text("OpenPlay(18y)",
+                            child: Text("LeftFootGoal",
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -243,8 +226,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -252,12 +234,11 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Center(
-                            child: Text("OpenPlay(LR)",
+                            child: Text("RightFootGoal",
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -265,8 +246,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -278,8 +258,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -287,8 +266,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -300,8 +278,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -309,8 +286,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -321,8 +297,8 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                             child: Text("FirstBooking(R)",
                                 style: TextStyle(
                                     fontSize: 20,
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    fontFamily: "Lobster",
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -330,8 +306,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -343,8 +318,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -352,8 +326,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -365,8 +338,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -374,8 +346,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),
@@ -383,12 +354,11 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Center(
-                            child: Text("LastMinuteGoal",
+                            child: Text("StoppageTimeGoal",
                                 style: TextStyle(
                                     fontSize: 20,
                                     fontFamily: "Lobster",
-                                    color: Colors.white,
-                                    backgroundColor: Colors.orangeAccent))),
+                                    color: Colors.white))),
                         ElevatedButton(
                             onPressed: null,
                             child: Text(
@@ -396,8 +366,7 @@ class _PlayerOptionsState extends State<PlayerOptions> {
                               style: TextStyle(
                                   fontSize: 15,
                                   fontFamily: "Lobster",
-                                  color: Colors.white,
-                                  backgroundColor: Colors.blue),
+                                  color: Colors.white),
                             ))
                       ],
                     ),

@@ -8,7 +8,7 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: ListView(children: const [
+      child: ListView(children: [
         Center(
           child: Text(
             " Welcome to AlphaPick",
@@ -19,7 +19,7 @@ class WelcomeScreen extends StatelessWidget {
               fontFamily: "Lobster"
             ),
           ),
-        ),
+        ),SignUpButton(),Verification(),
         Center(child: PlayButton()),
         Expanded(child: Image(image: AssetImage("images/lights_intro.jpg"),fit: BoxFit.cover,)),
       ],),

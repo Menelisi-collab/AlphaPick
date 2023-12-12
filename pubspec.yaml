@@ -67,11 +67,21 @@ flutter:
     - images/cover too.jpg
     - images/net.jpg
     - images/lights_intro.jpg
+    - images/basketball_icon.png
+    - images/tennis_icon.png
+    - images/rugby_nfl_icon.png
+    - images/boxing_icon.png
+    - images/racing_icon.png
 
   fonts:
     - family: Lobster
       fonts:
-      - asset: fonts/Lobster-Regular.ttf
+        - asset: fonts/Lobster-Regular.ttf
+    - family: AbrilFatface
+      fonts:
+        - asset: fonts/AbrilFatface-Regular.ttf
+
+
 
     # An image asset can refer to one or more resolution-specific "variants", see
     # https://flutter.dev/assets-and-images/#resolution-aware
