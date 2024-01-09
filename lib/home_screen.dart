@@ -25,15 +25,12 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Container(
-        color: Colors.blue,
-        child: Stack(children: [
-          EverythingDiski(),
-          OtherSports(),
-          FootballSlide(),
-        ]),
-      ),
+    return Container(
+      child: Stack(children: [
+        OtherSports(),
+        FootballSlide(),
+        EverythingDiski(),
+      ]),
     );
   }
 }

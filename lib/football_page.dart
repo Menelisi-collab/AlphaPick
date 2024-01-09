@@ -50,7 +50,7 @@ class _EverythingDiski extends State<EverythingDiski> {
             image: DecorationImage(
                 image: AssetImage("images/istockphoto-501835945-612x612.jpg"),
                 fit: BoxFit.fitHeight)),
-        height: 480,
+        height: 450,
         child: Center(
           child: ListView(
             children: <Widget>[
