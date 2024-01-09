@@ -35,6 +35,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_custom_carousel_slider: ^1.0.0
+  carousel_slider: ^4.2.1
+
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +75,24 @@ flutter:
     - images/rugby_nfl_icon.png
     - images/boxing_icon.png
     - images/racing_icon.png
+    - images/markus-spiske-BfphcCvhl6E-.jpg
+    - images/kevin-mueller-Q-fL04RhuMg-unsplash.jpg
+    - images/carnaby-gilany-_xIVBoktENQ-unsplash.jpg
+    - images/andrea-joshua-sibabalo-qoqonga-5CKSU1k6nwY-unsplash.jpg
+    - images/johann-walter-bantz-Clv9DfJLwac-unsplash.jpg
+    - images/james-coleman-CTEvFbFpVC8-unsplash.jpg
+    - images/max-bottinger-S9sJUJQAwb8-unsplash.jpg
+    - images/jorgen-hendriksen-5aQBMLpdsN0-unsplash.jpg
+    - images/david-pisnoy-yfZG4l1NOXM-unsplash.jpg
+    - images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg
+    - images/aron-visuals-rW-pCxiZWbM-unsplash.jpg
+    - images/yogendra-singh-dE3exzmYlKc-unsplash.jpg
+    - images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg
+    - images/diskiSlide 1.jpg
+    - images/diskiSlide 2.jpg
+    - images/diskiSlide 3.jpg
+    - images/diskiSlide 4.jpg
+    - images/diskislide 5.jpg
 
   fonts:
     - family: Lobster
