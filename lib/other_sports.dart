@@ -9,6 +9,8 @@ import 'home_screen.dart';
 
 
 class OtherSports extends StatefulWidget{
+  const OtherSports({super.key});
+
   @override
   State<OtherSports> createState() => _OtherSportsState();
 }

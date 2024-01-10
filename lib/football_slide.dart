@@ -28,6 +28,7 @@ class _FootballSlideState extends State<FootballSlide> {
         child: Column(
           children: [
             CarouselSlider(items: mySlide, options: CarouselOptions(
+                height: 120,
                 autoPlay: true,
                 autoPlayCurve: Curves.fastOutSlowIn,
                 autoPlayAnimationDuration: const Duration(milliseconds: 800),

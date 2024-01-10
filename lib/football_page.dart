@@ -53,6 +53,7 @@ class _EverythingDiski extends State<EverythingDiski> {
         height: 450,
         child: Center(
           child: ListView(
+            shrinkWrap: true,
             children: <Widget>[
               SizedBox(
                   height: 35,
